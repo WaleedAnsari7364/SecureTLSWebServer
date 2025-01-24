@@ -1,0 +1,118 @@
+2024-11-15 22:20:14,354 - INFO - TLS Handshake Completed
+2024-11-15 22:20:14,354 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:20:14,354 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:20:14,354 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:20:14,354 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 133, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:20:18,383 - INFO - TLS Handshake Completed
+2024-11-15 22:20:18,383 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:20:18,383 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:20:18,383 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:20:18,384 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 133, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:23:39,091 - INFO - TLS Handshake Completed
+2024-11-15 22:23:39,092 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:23:39,092 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:23:39,092 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:23:39,092 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 133, in <module>
+    print(f"TLS Handshake completed with {client_ip} using {tls_info} on {tls_version}")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:00,479 - INFO - TLS Handshake Completed
+2024-11-15 22:24:00,479 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:00,480 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:00,480 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:00,483 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:09,766 - INFO - TLS Handshake Completed
+2024-11-15 22:24:09,766 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:09,766 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:09,766 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:09,769 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:12,240 - INFO - TLS Handshake Completed
+2024-11-15 22:24:12,241 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:12,241 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:12,241 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:12,243 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:14,171 - INFO - TLS Handshake Completed
+2024-11-15 22:24:14,171 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:14,171 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:14,171 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:14,174 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:15,426 - INFO - TLS Handshake Completed
+2024-11-15 22:24:15,426 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:15,426 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:15,426 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:15,428 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:24:16,340 - INFO - TLS Handshake Completed
+2024-11-15 22:24:16,340 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:24:16,340 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:24:16,340 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:24:16,343 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 137, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:26:30,334 - INFO - TLS Handshake Completed
+2024-11-15 22:26:30,334 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:26:30,335 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:26:30,335 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:26:30,338 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 136, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:26:38,717 - INFO - TLS Handshake Completed
+2024-11-15 22:26:38,717 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:26:38,717 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:26:38,717 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:26:38,720 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 136, in <module>
+    update_dashboard(live_dashboard.console.renderables[-1], connections)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?
+2024-11-15 22:27:09,603 - INFO - TLS Handshake Completed
+2024-11-15 22:27:09,603 - INFO - Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2024-11-15 22:27:09,603 - INFO - SSL/TLS Version: TLSv1.3
+2024-11-15 22:27:09,603 - INFO - Client Certificate: {'subject': ((('commonName', 'Client'),),), 'issuer': ((('commonName', 'My CA'),),), 'version': 3, 'serialNumber': '02', 'notBefore': 'Nov 15 16:12:52 2024 GMT', 'notAfter': 'Nov 15 16:12:52 2025 GMT'}
+2024-11-15 22:27:09,607 - ERROR - Error handling connection:
+Traceback (most recent call last):
+  File "C:\Users\walee\OneDrive\Desktop\SSLTLS\server.py", line 136, in <module>
+AttributeError: 'Console' object has no attribute 'renderables'. Did you mean: 'render_lines'?

@@ -1,0 +1,18 @@
+[ req ]
+default_bits       = 4096
+default_keyfile    = ca_key.pem
+distinguished_name = req_distinguished_name
+x509_extensions    = v3_ca
+
+[ req_distinguished_name ]
+countryName                     = Country Name (2 letter code)
+stateOrProvinceName             = State or Province Name (full name)
+localityName                    = Locality Name (eg, city)
+organizationName                = Organization Name (eg, company)
+commonName                      = Common Name (e.g., CA name)
+
+[ v3_ca ]
+basicConstraints = critical, CA:TRUE
+keyUsage = critical, keyCertSign, cRLSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
